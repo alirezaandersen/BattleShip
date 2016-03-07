@@ -32,7 +32,7 @@ class BattleShip
     when 'p', 'play'
       @settings.difficulty_levels
       #then
-      # game.play #need to go to game
+       game.play #need to go to game
     when 'i', 'instructions'
       game.instructions#needs to go to instructions
     when 'q', 'quit'
